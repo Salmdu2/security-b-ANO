@@ -21,7 +21,7 @@ var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
 const prefix = "a!";
-client.login("تـــــۆکـــــیــــن لـێرە دانێ");
+client.login("OTgyOTk5MzA3NTg0MTQzNDAw.GGgXe4.vUJKEs3s8tx1gaBKxW4LcMiPNz5y0pSWKntaek");
 client.on("ready", async () => {
   console.log(`Logged in as ${client.user.username}!`);
   client.user.setStatus("idle");
@@ -36,7 +36,7 @@ client.on("ready", async () => {
 //////////
 
 client.on("message", async message => {
-  if (message.content.startsWith(prefix + "help")) {
+  if (message.content.startsWith(prefix + "SALM STAFF ❤️‍🔥help")) {
     let help = new Discord.MessageEmbed()
       .setColor(color)
       .setAuthor(message.author.username, message.author.displayAvatarURL)
@@ -65,8 +65,8 @@ client.on("message", async message => {
 > say , unban[userid/all]
 ------//------
 __ [Vote](link top gg) __  
-__ [invite](invitebot) __  __ [Support](https://discord.gg/cetGQvWD3h) __
-Coded By /// ANO ///
+__ [invite](invitebot) __  __ [Support]() __
+Coded By /// SALM STAFF ///
 `);
     message.channel.send(help);
   }
